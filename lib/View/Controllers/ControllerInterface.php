@@ -3,7 +3,7 @@
 namespace Magium\Configuration\View\Controllers;
 
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\View\Model\ViewModel;
+use Laminas\View\Model\ViewModel;
 
 interface ControllerInterface
 {

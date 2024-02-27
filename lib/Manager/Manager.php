@@ -5,7 +5,7 @@ namespace Magium\Configuration\Manager;
 use Magium\Configuration\Config\BuilderInterface;
 use Magium\Configuration\Config\Repository\ConfigurationRepository;
 use Magium\Configuration\Config\Repository\ConfigInterface;
-use Zend\Cache\Storage\StorageInterface;
+use Laminas\Cache\Storage\StorageInterface;
 
 class Manager implements ManagerInterface
 {

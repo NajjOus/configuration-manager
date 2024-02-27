@@ -2,7 +2,7 @@
 
 namespace Magium\Configuration\Manager;
 
-use Zend\Cache\StorageFactory;
+use Laminas\Cache\StorageFactory;
 
 class CacheFactory
 {

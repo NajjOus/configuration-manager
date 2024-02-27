@@ -12,7 +12,7 @@ use Magium\Configuration\File\Context\AbstractContextConfigurationFile;
 use Magium\Configuration\View\Controllers\Helpers\ContextRepository;
 use Magium\Configuration\View\ViewConfiguration;
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\View\Model\JsonModel;
+use Laminas\View\Model\JsonModel;
 
 class Rebuild implements ControllerInterface
 {

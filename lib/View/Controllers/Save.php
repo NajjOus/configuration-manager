@@ -5,7 +5,7 @@ namespace Magium\Configuration\View\Controllers;
 use Magium\Configuration\Config\BuilderInterface;
 use Magium\Configuration\Config\Repository\ConfigInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\View\Model\JsonModel;
+use Laminas\View\Model\JsonModel;
 
 class Save implements ControllerInterface
 {

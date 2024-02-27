@@ -8,7 +8,7 @@ use Magium\Configuration\MagiumConfigurationFactoryInterface;
 use Magium\Configuration\View\Controllers\Helpers\ContextRepository;
 use Magium\Configuration\View\ViewConfiguration;
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\View\Model\ViewModel;
+use Laminas\View\Model\ViewModel;
 
 class Layout implements ControllerInterface
 {

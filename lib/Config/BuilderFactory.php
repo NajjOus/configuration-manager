@@ -9,7 +9,7 @@ use Magium\Configuration\File\Context\AbstractContextConfigurationFile;
 use Magium\Configuration\InvalidConfigurationException;
 use Magium\Configuration\Manager\CacheFactory;
 use MongoDB\Client;
-use Zend\Db\Adapter\Adapter;
+use Laminas\Db\Adapter\Adapter;
 
 class BuilderFactory implements BuilderFactoryInterface
 {

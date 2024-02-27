@@ -11,7 +11,7 @@ use Magium\Configuration\Source\SourceInterface;
 use Magium\Configuration\View\UnableToCreateInstanceException;
 use Magium\Configuration\View\ViewConfiguration;
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\View\Model\ViewModel;
+use Laminas\View\Model\ViewModel;
 
 class View implements ControllerInterface
 {

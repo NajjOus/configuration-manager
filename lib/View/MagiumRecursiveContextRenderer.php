@@ -8,12 +8,12 @@
 
 namespace Magium\Configuration\View;
 
-use Zend\Form\Element;
-use Zend\Form\ElementInterface;
-use Zend\Form\View\Helper\FormElement;
-use Zend\Form\View\Helper\FormInput;
-use Zend\Form\View\Helper\FormSelect;
-use Zend\View\Helper\AbstractHelper;
+use Laminas\Form\Element;
+use Laminas\Form\ElementInterface;
+use Laminas\Form\View\Helper\FormElement;
+use Laminas\Form\View\Helper\FormInput;
+use Laminas\Form\View\Helper\FormSelect;
+use Laminas\View\Helper\AbstractHelper;
 
 class MagiumRecursiveContextRenderer extends AbstractHelper
 {

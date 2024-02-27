@@ -9,10 +9,10 @@ use Magium\Configuration\View\Controllers\Layout;
 use Magium\Configuration\View\Controllers\Rebuild;
 use Magium\Configuration\View\Controllers\Save;
 use Magium\Configuration\View\Controllers\View;
-use Zend\View\Model\JsonModel;
-use Zend\View\Model\ViewModel;
-use Zend\View\Renderer\PhpRenderer;
-use Zend\View\Resolver\TemplatePathStack;
+use Laminas\View\Model\JsonModel;
+use Laminas\View\Model\ViewModel;
+use Laminas\View\Renderer\PhpRenderer;
+use Laminas\View\Resolver\TemplatePathStack;
 
 class FrontController
 {

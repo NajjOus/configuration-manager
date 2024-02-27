@@ -8,13 +8,13 @@
 
 namespace Magium\Configuration\View;
 
-use Zend\Form\Element;
-use Zend\Form\ElementInterface;
-use Zend\Form\View\Helper\FormElement;
-use Zend\Form\View\Helper\FormInput;
-use Zend\Form\View\Helper\FormSelect;
-use Zend\View\Helper\AbstractHelper;
-use Zend\View\Renderer\RendererInterface;
+use Laminas\Form\Element;
+use Laminas\Form\ElementInterface;
+use Laminas\Form\View\Helper\FormElement;
+use Laminas\Form\View\Helper\FormInput;
+use Laminas\Form\View\Helper\FormSelect;
+use Laminas\View\Helper\AbstractHelper;
+use Laminas\View\Renderer\RendererInterface;
 
 class MagiumRenderer extends AbstractHelper
 {
@@ -26,8 +26,8 @@ class MagiumRenderer extends AbstractHelper
         }
         $value = $options['value'];
 
-        $viewClass = 'Zend\Form\View\Helper\Form' . ucfirst(strtolower($type));
-        $formClass = 'Zend\Form\Element\\' . ucfirst(strtolower($type));
+        $viewClass = 'Laminas\Form\View\Helper\Form' . ucfirst(strtolower($type));
+        $formClass = 'Laminas\Form\Element\\' . ucfirst(strtolower($type));
         $reflectionClass = new \ReflectionClass($viewClass);
         if (!$reflectionClass->isSubclassOf(AbstractHelper::class)) {
             throw new InvalidViewConfigurationException('Invalid setting input type');

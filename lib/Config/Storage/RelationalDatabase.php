@@ -5,13 +5,13 @@ namespace Magium\Configuration\Config\Storage;
 use Magium\Configuration\Config\Repository\ConfigurationRepository;
 use Magium\Configuration\Config\InvalidContextException;
 use Magium\Configuration\File\Context\AbstractContextConfigurationFile;
-use Zend\Db\Adapter\Adapter;
-use Zend\Db\Sql\Ddl\Column\Text;
-use Zend\Db\Sql\Ddl\Column\Varchar;
-use Zend\Db\Sql\Ddl\Constraint\UniqueKey;
-use Zend\Db\Sql\Ddl\CreateTable;
-use Zend\Db\Sql\Expression;
-use Zend\Db\Sql\Sql;
+use Laminas\Db\Adapter\Adapter;
+use Laminas\Db\Sql\Ddl\Column\Text;
+use Laminas\Db\Sql\Ddl\Column\Varchar;
+use Laminas\Db\Sql\Ddl\Constraint\UniqueKey;
+use Laminas\Db\Sql\Ddl\CreateTable;
+use Laminas\Db\Sql\Expression;
+use Laminas\Db\Sql\Sql;
 
 class RelationalDatabase implements StorageInterface
 {

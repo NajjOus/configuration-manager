@@ -202,7 +202,7 @@ class MagiumConfigurationFactory implements MagiumConfigurationFactoryInterface
      * Retrieves an instance of the cache based off of the XML cache configuration
      *
      * @param \SimpleXMLElement $element
-     * @return \Zend\Cache\Storage\StorageInterface
+     * @return \Laminas\Cache\Storage\StorageInterface
      */
 
     protected function getCache(\SimpleXMLElement $element)

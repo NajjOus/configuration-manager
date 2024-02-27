@@ -7,4 +7,7 @@ interface CallbackInterface
 
     public function filter($value);
 
+
+
+    
 }

@@ -3,7 +3,7 @@
 namespace Magium\Configuration\Config;
 
 use Magium\Configuration\File\Context\AbstractContextConfigurationFile;
-use Zend\Db\Adapter\Adapter;
+use Laminas\Db\Adapter\Adapter;
 
 interface BuilderFactoryInterface
 {

@@ -12,7 +12,7 @@ use Magium\Configuration\File\AdapterInterface;
 use Magium\Configuration\File\Configuration\ConfigurationFileRepository;
 use Magium\Configuration\File\InvalidFileException;
 use Magium\Configuration\InvalidConfigurationException;
-use Zend\Cache\Storage\StorageInterface;
+use Laminas\Cache\Storage\StorageInterface;
 
 class Builder implements BuilderInterface
 {
